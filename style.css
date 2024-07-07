@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e2b5ef;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/2680270/pexels-photo-2680270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); /* Replace 'background.jpg' with your image file path */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .calculator {
+    background-color: #e2708e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+  }
+  
+  .display {
+    margin-bottom: 10px;
+  }
+  
+  #display {
+    width: 100%;
+    padding: 1px;
+    font-size: 50px;
+    text-align: right;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 10px;
+  }
+  
+  .btn {
+    background-color: #f8f1bb;
+    color: rgb(7, 7, 6);
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 30px 10px 16px rgba(227, 209, 209, 0.1); 
+    transition: box-shadow 0.5s ease;
+  }
+  
+  
+  .btn:hover {
+    background-color: #ecc369;
+    box-shadow: 30px 10px 16px rgba(205, 201, 201, 0.104); 
+  }
+  
+  h1{padding-left:40%;
+    justify-content: center;
+
+  }
+  h1{
+    font-size: 75%;
+    color: blue;
+    
+  }
+  h2{
+    font-size: 100%;
+    padding-left:35% ;
+    justify-content: center;
+  }
